@@ -1,0 +1,743 @@
+找到 8 个CSV文件
+
+==================================================
+开始处理: Wednesday-workingHours.pcap_ISCX.csv
+正在预处理文件: Wednesday-workingHours.pcap_ISCX.csv
+成功使用 utf-8 编码读取文件
+缺失值列统计:
+Flow Bytes/s    1008
+dtype: int64
+列 'Flow Bytes/s' 的缺失值已用中位数 519.0026125 填充
+包含无穷值的列:
+- Flow Bytes/s: 289个无穷值
+  已用中位数 519.0026125 替换无穷值
+- Flow Packets/s: 1297个无穷值
+  已用中位数 62.99659031 替换无穷值
+
+标签分布:
+BENIGN              440031
+DOS HULK            231073
+DOS GOLDENEYE        10293
+DOS SLOWLORIS         5796
+DOS SLOWHTTPTEST      5499
+HEARTBLEED              11
+Name: Label, dtype: int64
+
+潜在异常值报告 (使用IQR方法):
+- Destination Port: 82026个异常值 (11.84%)
+- Total Fwd Packets: 19031个异常值 (2.75%)
+- Total Backward Packets: 18604个异常值 (2.69%)
+- Total Length of Fwd Packets: 40229个异常值 (5.81%)
+- Total Length of Bwd Packets: 7534个异常值 (1.09%)
+- Fwd Packet Length Max: 15549个异常值 (2.24%)
+- Fwd Packet Length Min: 2099个异常值 (0.30%)
+- Fwd Packet Length Mean: 19687个异常值 (2.84%)
+- Fwd Packet Length Std: 12571个异常值 (1.81%)
+- Bwd Packet Length Max: 2148个异常值 (0.31%)
+- Bwd Packet Length Min: 8067个异常值 (1.16%)
+- Bwd Packet Length Mean: 124个异常值 (0.02%)
+- Bwd Packet Length Std: 17105个异常值 (2.47%)
+- Flow Bytes/s: 150972个异常值 (21.79%)
+- Flow Packets/s: 81683个异常值 (11.79%)
+- Flow IAT Mean: 10364个异常值 (1.50%)
+- Flow IAT Std: 151797个异常值 (21.91%)
+- Flow IAT Max: 18424个异常值 (2.66%)
+- Flow IAT Min: 109727个异常值 (15.84%)
+- Fwd IAT Mean: 13348个异常值 (1.93%)
+- Fwd IAT Std: 151161个异常值 (21.82%)
+- Fwd IAT Max: 90629个异常值 (13.08%)
+- Fwd IAT Min: 129330个异常值 (18.67%)
+- Bwd IAT Total: 137709个异常值 (19.88%)
+- Bwd IAT Mean: 134174个异常值 (19.37%)
+- Bwd IAT Std: 121344个异常值 (17.52%)
+- Bwd IAT Max: 135255个异常值 (19.53%)
+- Bwd IAT Min: 53944个异常值 (7.79%)
+- Fwd PSH Flags: 29233个异常值 (4.22%)
+- Fwd Header Length: 16535个异常值 (2.39%)
+- Bwd Header Length: 13994个异常值 (2.02%)
+- Fwd Packets/s: 86613个异常值 (12.50%)
+- Bwd Packets/s: 129234个异常值 (18.66%)
+- Min Packet Length: 1383个异常值 (0.20%)
+- Max Packet Length: 37个异常值 (0.01%)
+- Packet Length Std: 165个异常值 (0.02%)
+- Packet Length Variance: 43175个异常值 (6.23%)
+- FIN Flag Count: 67401个异常值 (9.73%)
+- SYN Flag Count: 29233个异常值 (4.22%)
+- RST Flag Count: 234个异常值 (0.03%)
+- PSH Flag Count: 134172个异常值 (19.37%)
+- URG Flag Count: 45976个异常值 (6.64%)
+- ECE Flag Count: 235个异常值 (0.03%)
+- Down/Up Ratio: 223个异常值 (0.03%)
+- Avg Fwd Segment Size: 19687个异常值 (2.84%)
+- Avg Bwd Segment Size: 124个异常值 (0.02%)
+- Fwd Header Length.1: 16535个异常值 (2.39%)
+- Subflow Fwd Packets: 19031个异常值 (2.75%)
+- Subflow Fwd Bytes: 40229个异常值 (5.81%)
+- Subflow Bwd Packets: 18604个异常值 (2.69%)
+- Subflow Bwd Bytes: 7534个异常值 (1.09%)
+- Init_Win_bytes_forward: 156860个异常值 (22.64%)
+- Init_Win_bytes_backward: 47623个异常值 (6.87%)
+- act_data_pkt_fwd: 37556个异常值 (5.42%)
+- Active Mean: 126382个异常值 (18.24%)
+- Active Std: 44539个异常值 (6.43%)
+- Active Max: 126385个异常值 (18.25%)
+- Active Min: 123648个异常值 (17.85%)
+- Idle Mean: 148623个异常值 (21.46%)
+- Idle Std: 50833个异常值 (7.34%)
+- Idle Max: 151225个异常值 (21.83%)
+- Idle Min: 158383个异常值 (22.86%)
+预处理完成: Wednesday-workingHours.pcap_ISCX.csv
+处理后数据形状: (692703, 81)
+保存预处理后的文件到: /root/autodl-tmp/projects/DL/dataset/preprocessed/preprocessed_Wednesday-workingHours.pcap_ISCX.csv
+
+==================================================
+开始处理: Tuesday-WorkingHours.pcap_ISCX.csv
+正在预处理文件: Tuesday-WorkingHours.pcap_ISCX.csv
+成功使用 utf-8 编码读取文件
+缺失值列统计:
+Flow Bytes/s    201
+dtype: int64
+列 'Flow Bytes/s' 的缺失值已用中位数 2478.0171259999997 填充
+包含无穷值的列:
+- Flow Bytes/s: 63个无穷值
+  已用中位数 2478.0171259999997 替换无穷值
+- Flow Packets/s: 264个无穷值
+  已用中位数 120.2742252 替换无穷值
+
+标签分布:
+BENIGN         432074
+FTP-PATATOR      7938
+SSH-PATATOR      5897
+Name: Label, dtype: int64
+
+潜在异常值报告 (使用IQR方法):
+- Destination Port: 82468个异常值 (18.49%)
+- Flow Duration: 98699个异常值 (22.13%)
+- Total Fwd Packets: 62462个异常值 (14.01%)
+- Total Backward Packets: 84428个异常值 (18.93%)
+- Total Length of Fwd Packets: 72068个异常值 (16.16%)
+- Total Length of Bwd Packets: 76132个异常值 (17.07%)
+- Fwd Packet Length Max: 82411个异常值 (18.48%)
+- Fwd Packet Length Min: 1230个异常值 (0.28%)
+- Fwd Packet Length Mean: 12082个异常值 (2.71%)
+- Fwd Packet Length Std: 77457个异常值 (17.37%)
+- Bwd Packet Length Max: 79729个异常值 (17.88%)
+- Bwd Packet Length Min: 569个异常值 (0.13%)
+- Bwd Packet Length Mean: 34590个异常值 (7.76%)
+- Bwd Packet Length Std: 108778个异常值 (24.39%)
+- Flow Bytes/s: 99474个异常值 (22.31%)
+- Flow Packets/s: 33634个异常值 (7.54%)
+- Flow IAT Mean: 77735个异常值 (17.43%)
+- Flow IAT Std: 97325个异常值 (21.83%)
+- Flow IAT Max: 98727个异常值 (22.14%)
+- Flow IAT Min: 88319个异常值 (19.81%)
+- Fwd IAT Total: 97556个异常值 (21.88%)
+- Fwd IAT Mean: 97153个异常值 (21.79%)
+- Fwd IAT Std: 92452个异常值 (20.73%)
+- Fwd IAT Max: 99184个异常值 (22.24%)
+- Fwd IAT Min: 76916个异常值 (17.25%)
+- Bwd IAT Total: 89152个异常值 (19.99%)
+- Bwd IAT Mean: 94606个异常值 (21.22%)
+- Bwd IAT Std: 109438个异常值 (24.54%)
+- Bwd IAT Max: 86795个异常值 (19.46%)
+- Bwd IAT Min: 106105个异常值 (23.80%)
+- Fwd PSH Flags: 27077个异常值 (6.07%)
+- Fwd Header Length: 58663个异常值 (13.16%)
+- Bwd Header Length: 62856个异常值 (14.10%)
+- Fwd Packets/s: 36608个异常值 (8.21%)
+- Bwd Packets/s: 16042个异常值 (3.60%)
+- Min Packet Length: 893个异常值 (0.20%)
+- Max Packet Length: 83264个异常值 (18.67%)
+- Packet Length Mean: 29816个异常值 (6.69%)
+- Packet Length Std: 72029个异常值 (16.15%)
+- Packet Length Variance: 89519个异常值 (20.08%)
+- FIN Flag Count: 8196个异常值 (1.84%)
+- SYN Flag Count: 27077个异常值 (6.07%)
+- RST Flag Count: 150个异常值 (0.03%)
+- PSH Flag Count: 108176个异常值 (24.26%)
+- URG Flag Count: 51320个异常值 (11.51%)
+- ECE Flag Count: 151个异常值 (0.03%)
+- Down/Up Ratio: 245个异常值 (0.05%)
+- Average Packet Size: 22712个异常值 (5.09%)
+- Avg Fwd Segment Size: 12082个异常值 (2.71%)
+- Avg Bwd Segment Size: 34590个异常值 (7.76%)
+- Fwd Header Length.1: 58663个异常值 (13.16%)
+- Subflow Fwd Packets: 62462个异常值 (14.01%)
+- Subflow Fwd Bytes: 72068个异常值 (16.16%)
+- Subflow Bwd Packets: 84428个异常值 (18.93%)
+- Subflow Bwd Bytes: 76132个异常值 (17.07%)
+- Init_Win_bytes_forward: 24350个异常值 (5.46%)
+- Init_Win_bytes_backward: 49352个异常值 (11.07%)
+- act_data_pkt_fwd: 25653个异常值 (5.75%)
+- min_seg_size_forward: 13个异常值 (0.00%)
+- Active Mean: 64353个异常值 (14.43%)
+- Active Std: 39028个异常值 (8.75%)
+- Active Max: 64353个异常值 (14.43%)
+- Active Min: 64353个异常值 (14.43%)
+- Idle Mean: 64471个异常值 (14.46%)
+- Idle Std: 39184个异常值 (8.79%)
+- Idle Max: 64471个异常值 (14.46%)
+- Idle Min: 64471个异常值 (14.46%)
+预处理完成: Tuesday-WorkingHours.pcap_ISCX.csv
+处理后数据形状: (445909, 81)
+保存预处理后的文件到: /root/autodl-tmp/projects/DL/dataset/preprocessed/preprocessed_Tuesday-WorkingHours.pcap_ISCX.csv
+
+==================================================
+开始处理: Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv
+正在预处理文件: Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv
+成功使用 utf-8 编码读取文件
+缺失值列统计:
+Flow Bytes/s    20
+dtype: int64
+列 'Flow Bytes/s' 的缺失值已用中位数 4837.9919595 填充
+包含无穷值的列:
+- Flow Bytes/s: 115个无穷值
+  已用中位数 4827.778294 替换无穷值
+- Flow Packets/s: 135个无穷值
+  已用中位数 93.63880392 替换无穷值
+
+标签分布:
+BENIGN                        168186
+WEB ATTACK � BRUTE FORCE        1507
+WEB ATTACK � XSS                 652
+WEB ATTACK � SQL INJECTION        21
+Name: Label, dtype: int64
+
+潜在异常值报告 (使用IQR方法):
+- Destination Port: 28761个异常值 (16.88%)
+- Flow Duration: 38706个异常值 (22.72%)
+- Total Fwd Packets: 18827个异常值 (11.05%)
+- Total Backward Packets: 30675个异常值 (18.01%)
+- Total Length of Fwd Packets: 29107个异常值 (17.08%)
+- Total Length of Bwd Packets: 28268个异常值 (16.59%)
+- Fwd Packet Length Max: 36377个异常值 (21.35%)
+- Fwd Packet Length Min: 500个异常值 (0.29%)
+- Fwd Packet Length Mean: 4782个异常值 (2.81%)
+- Fwd Packet Length Std: 32973个异常值 (19.35%)
+- Bwd Packet Length Max: 29915个异常值 (17.56%)
+- Bwd Packet Length Min: 197个异常值 (0.12%)
+- Bwd Packet Length Mean: 11788个异常值 (6.92%)
+- Bwd Packet Length Std: 39021个异常值 (22.90%)
+- Flow Bytes/s: 28185个异常值 (16.54%)
+- Flow Packets/s: 11950个异常值 (7.01%)
+- Flow IAT Mean: 31763个异常值 (18.64%)
+- Flow IAT Std: 38831个异常值 (22.79%)
+- Flow IAT Max: 38677个异常值 (22.70%)
+- Flow IAT Min: 35858个异常值 (21.05%)
+- Fwd IAT Total: 38336个异常值 (22.50%)
+- Fwd IAT Mean: 38111个异常值 (22.37%)
+- Fwd IAT Std: 36892个异常值 (21.65%)
+- Fwd IAT Max: 39577个异常值 (23.23%)
+- Fwd IAT Min: 27201个异常值 (15.97%)
+- Bwd IAT Total: 42151个异常值 (24.74%)
+- Bwd IAT Mean: 41886个异常值 (24.59%)
+- Bwd IAT Std: 38730个异常值 (22.73%)
+- Bwd IAT Max: 42090个异常值 (24.71%)
+- Bwd IAT Min: 15129个异常值 (8.88%)
+- Fwd PSH Flags: 7479个异常值 (4.39%)
+- Fwd Header Length: 20673个异常值 (12.13%)
+- Bwd Header Length: 25681个异常值 (15.07%)
+- Fwd Packets/s: 12906个异常值 (7.58%)
+- Bwd Packets/s: 8801个异常值 (5.17%)
+- Min Packet Length: 380个异常值 (0.22%)
+- Max Packet Length: 31553个异常值 (18.52%)
+- Packet Length Mean: 10356个异常值 (6.08%)
+- Packet Length Std: 28275个异常值 (16.60%)
+- Packet Length Variance: 34034个异常值 (19.98%)
+- FIN Flag Count: 1847个异常值 (1.08%)
+- SYN Flag Count: 7479个异常值 (4.39%)
+- RST Flag Count: 56个异常值 (0.03%)
+- PSH Flag Count: 40473个异常值 (23.76%)
+- URG Flag Count: 19316个异常值 (11.34%)
+- ECE Flag Count: 56个异常值 (0.03%)
+- Down/Up Ratio: 34个异常值 (0.02%)
+- Average Packet Size: 6995个异常值 (4.11%)
+- Avg Fwd Segment Size: 4782个异常值 (2.81%)
+- Avg Bwd Segment Size: 11788个异常值 (6.92%)
+- Fwd Header Length.1: 20673个异常值 (12.13%)
+- Subflow Fwd Packets: 18827个异常值 (11.05%)
+- Subflow Fwd Bytes: 29107个异常值 (17.08%)
+- Subflow Bwd Packets: 30675个异常值 (18.01%)
+- Subflow Bwd Bytes: 28268个异常值 (16.59%)
+- Init_Win_bytes_forward: 5218个异常值 (3.06%)
+- Init_Win_bytes_backward: 17757个异常值 (10.42%)
+- act_data_pkt_fwd: 11404个异常值 (6.69%)
+- Active Mean: 27840个异常值 (16.34%)
+- Active Std: 17636个异常值 (10.35%)
+- Active Max: 27840个异常值 (16.34%)
+- Active Min: 27840个异常值 (16.34%)
+- Idle Mean: 28001个异常值 (16.44%)
+- Idle Std: 17708个异常值 (10.39%)
+- Idle Max: 28001个异常值 (16.44%)
+- Idle Min: 28001个异常值 (16.44%)
+预处理完成: Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv
+处理后数据形状: (170366, 81)
+保存预处理后的文件到: /root/autodl-tmp/projects/DL/dataset/preprocessed/preprocessed_Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv
+
+==================================================
+开始处理: Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv
+正在预处理文件: Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv
+成功使用 utf-8 编码读取文件
+缺失值列统计:
+Flow Bytes/s    18
+dtype: int64
+列 'Flow Bytes/s' 的缺失值已用中位数 19567.551825000002 填充
+包含无穷值的列:
+- Flow Bytes/s: 189个无穷值
+  已用中位数 19323.6715 替换无穷值
+- Flow Packets/s: 207个无穷值
+  已用中位数 10230.17903 替换无穷值
+
+标签分布:
+BENIGN          288566
+INFILTRATION        36
+Name: Label, dtype: int64
+
+潜在异常值报告 (使用IQR方法):
+- Destination Port: 44137个异常值 (15.29%)
+- Flow Duration: 56653个异常值 (19.63%)
+- Total Fwd Packets: 43980个异常值 (15.24%)
+- Total Backward Packets: 40585个异常值 (14.06%)
+- Total Length of Fwd Packets: 46598个异常值 (16.15%)
+- Total Length of Bwd Packets: 40200个异常值 (13.93%)
+- Fwd Packet Length Max: 44465个异常值 (15.41%)
+- Fwd Packet Length Min: 813个异常值 (0.28%)
+- Fwd Packet Length Mean: 7821个异常值 (2.71%)
+- Fwd Packet Length Std: 70668个异常值 (24.49%)
+- Bwd Packet Length Max: 41766个异常值 (14.47%)
+- Bwd Packet Length Min: 624个异常值 (0.22%)
+- Bwd Packet Length Mean: 21615个异常值 (7.49%)
+- Bwd Packet Length Std: 54271个异常值 (18.80%)
+- Flow Bytes/s: 32523个异常值 (11.27%)
+- Flow Packets/s: 31189个异常值 (10.81%)
+- Flow IAT Mean: 51405个异常值 (17.81%)
+- Flow IAT Std: 53790个异常值 (18.64%)
+- Flow IAT Max: 54524个异常值 (18.89%)
+- Flow IAT Min: 46042个异常值 (15.95%)
+- Fwd IAT Total: 59219个异常值 (20.52%)
+- Fwd IAT Mean: 56220个异常值 (19.48%)
+- Fwd IAT Std: 70814个异常值 (24.54%)
+- Fwd IAT Max: 56770个异常值 (19.67%)
+- Fwd IAT Min: 34777个异常值 (12.05%)
+- Bwd IAT Total: 58824个异常值 (20.38%)
+- Bwd IAT Mean: 58300个异常值 (20.20%)
+- Bwd IAT Std: 54266个异常值 (18.80%)
+- Bwd IAT Max: 58698个异常值 (20.34%)
+- Bwd IAT Min: 19892个异常值 (6.89%)
+- Fwd PSH Flags: 10451个异常值 (3.62%)
+- Fwd URG Flags: 315个异常值 (0.11%)
+- Fwd Header Length: 44320个异常值 (15.36%)
+- Bwd Header Length: 33964个异常值 (11.77%)
+- Fwd Packets/s: 30551个异常值 (10.59%)
+- Bwd Packets/s: 10441个异常值 (3.62%)
+- Min Packet Length: 616个异常值 (0.21%)
+- Max Packet Length: 45502个异常值 (15.77%)
+- Packet Length Mean: 19652个异常值 (6.81%)
+- Packet Length Std: 43643个异常值 (15.12%)
+- Packet Length Variance: 51398个异常值 (17.81%)
+- FIN Flag Count: 4980个异常值 (1.73%)
+- SYN Flag Count: 10451个异常值 (3.62%)
+- RST Flag Count: 78个异常值 (0.03%)
+- ACK Flag Count: 66123个异常值 (22.91%)
+- URG Flag Count: 24655个异常值 (8.54%)
+- CWE Flag Count: 315个异常值 (0.11%)
+- ECE Flag Count: 78个异常值 (0.03%)
+- Down/Up Ratio: 276个异常值 (0.10%)
+- Average Packet Size: 12835个异常值 (4.45%)
+- Avg Fwd Segment Size: 7821个异常值 (2.71%)
+- Avg Bwd Segment Size: 21615个异常值 (7.49%)
+- Fwd Header Length.1: 44320个异常值 (15.36%)
+- Subflow Fwd Packets: 43980个异常值 (15.24%)
+- Subflow Fwd Bytes: 46598个异常值 (16.15%)
+- Subflow Bwd Packets: 40585个异常值 (14.06%)
+- Subflow Bwd Bytes: 40200个异常值 (13.93%)
+- Init_Win_bytes_forward: 65924个异常值 (22.84%)
+- Init_Win_bytes_backward: 29539个异常值 (10.24%)
+- act_data_pkt_fwd: 134177个异常值 (46.49%)
+- Active Mean: 36939个异常值 (12.80%)
+- Active Std: 23559个异常值 (8.16%)
+- Active Max: 36939个异常值 (12.80%)
+- Active Min: 36939个异常值 (12.80%)
+- Idle Mean: 37034个异常值 (12.83%)
+- Idle Std: 23632个异常值 (8.19%)
+- Idle Max: 37034个异常值 (12.83%)
+- Idle Min: 37034个异常值 (12.83%)
+预处理完成: Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv
+处理后数据形状: (288602, 81)
+保存预处理后的文件到: /root/autodl-tmp/projects/DL/dataset/preprocessed/preprocessed_Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv
+
+==================================================
+开始处理: Monday-WorkingHours.pcap_ISCX.csv
+正在预处理文件: Monday-WorkingHours.pcap_ISCX.csv
+成功使用 utf-8 编码读取文件
+缺失值列统计:
+Flow Bytes/s    64
+dtype: int64
+列 'Flow Bytes/s' 的缺失值已用中位数 5567.65958745595 填充
+包含无穷值的列:
+- Flow Bytes/s: 373个无穷值
+  已用中位数 5558.0688942028 替换无穷值
+- Flow Packets/s: 437个无穷值
+  已用中位数 114.4813137876 替换无穷值
+
+标签分布:
+BENIGN    529918
+Name: Label, dtype: int64
+
+潜在异常值报告 (使用IQR方法):
+- Destination Port: 108215个异常值 (20.42%)
+- Flow Duration: 114244个异常值 (21.56%)
+- Total Fwd Packets: 68748个异常值 (12.97%)
+- Total Backward Packets: 61367个异常值 (11.58%)
+- Total Length of Fwd Packets: 87135个异常值 (16.44%)
+- Total Length of Bwd Packets: 87127个异常值 (16.44%)
+- Fwd Packet Length Max: 105567个异常值 (19.92%)
+- Fwd Packet Length Min: 1335个异常值 (0.25%)
+- Fwd Packet Length Mean: 17082个异常值 (3.22%)
+- Fwd Packet Length Std: 99498个异常值 (18.78%)
+- Bwd Packet Length Max: 91478个异常值 (17.26%)
+- Bwd Packet Length Min: 715个异常值 (0.13%)
+- Bwd Packet Length Mean: 32867个异常值 (6.20%)
+- Bwd Packet Length Std: 122748个异常值 (23.16%)
+- Flow Bytes/s: 99414个异常值 (18.76%)
+- Flow Packets/s: 44968个异常值 (8.49%)
+- Flow IAT Mean: 104109个异常值 (19.65%)
+- Flow IAT Std: 110235个异常值 (20.80%)
+- Flow IAT Max: 117045个异常值 (22.09%)
+- Flow IAT Min: 102017个异常值 (19.25%)
+- Fwd IAT Total: 109186个异常值 (20.60%)
+- Fwd IAT Mean: 109045个异常值 (20.58%)
+- Fwd IAT Std: 100135个异常值 (18.90%)
+- Fwd IAT Max: 111779个异常值 (21.09%)
+- Fwd IAT Min: 85094个异常值 (16.06%)
+- Bwd IAT Total: 93571个异常值 (17.66%)
+- Bwd IAT Mean: 89973个异常值 (16.98%)
+- Bwd IAT Std: 131796个异常值 (24.87%)
+- Bwd IAT Max: 91124个异常值 (17.20%)
+- Bwd IAT Min: 119501个异常值 (22.55%)
+- Fwd PSH Flags: 33988个异常值 (6.41%)
+- Fwd Header Length: 68375个异常值 (12.90%)
+- Bwd Header Length: 62869个异常值 (11.86%)
+- Fwd Packets/s: 46133个异常值 (8.71%)
+- Bwd Packets/s: 28944个异常值 (5.46%)
+- Min Packet Length: 1097个异常值 (0.21%)
+- Max Packet Length: 93629个异常值 (17.67%)
+- Packet Length Mean: 27302个异常值 (5.15%)
+- Packet Length Std: 70763个异常值 (13.35%)
+- Packet Length Variance: 104011个异常值 (19.63%)
+- FIN Flag Count: 12160个异常值 (2.29%)
+- SYN Flag Count: 33988个异常值 (6.41%)
+- RST Flag Count: 72个异常值 (0.01%)
+- PSH Flag Count: 131752个异常值 (24.86%)
+- URG Flag Count: 63586个异常值 (12.00%)
+- ECE Flag Count: 73个异常值 (0.01%)
+- Down/Up Ratio: 105个异常值 (0.02%)
+- Average Packet Size: 19684个异常值 (3.71%)
+- Avg Fwd Segment Size: 17082个异常值 (3.22%)
+- Avg Bwd Segment Size: 32867个异常值 (6.20%)
+- Fwd Header Length.1: 68375个异常值 (12.90%)
+- Subflow Fwd Packets: 68748个异常值 (12.97%)
+- Subflow Fwd Bytes: 87135个异常值 (16.44%)
+- Subflow Bwd Packets: 61367个异常值 (11.58%)
+- Subflow Bwd Bytes: 87127个异常值 (16.44%)
+- Init_Win_bytes_forward: 48124个异常值 (9.08%)
+- Init_Win_bytes_backward: 62856个异常值 (11.86%)
+- act_data_pkt_fwd: 26355个异常值 (4.97%)
+- min_seg_size_forward: 32个异常值 (0.01%)
+- Active Mean: 75588个异常值 (14.26%)
+- Active Std: 43783个异常值 (8.26%)
+- Active Max: 75588个异常值 (14.26%)
+- Active Min: 75588个异常值 (14.26%)
+- Idle Mean: 76021个异常值 (14.35%)
+- Idle Std: 43959个异常值 (8.30%)
+- Idle Max: 76021个异常值 (14.35%)
+- Idle Min: 76021个异常值 (14.35%)
+预处理完成: Monday-WorkingHours.pcap_ISCX.csv
+处理后数据形状: (529918, 81)
+保存预处理后的文件到: /root/autodl-tmp/projects/DL/dataset/preprocessed/preprocessed_Monday-WorkingHours.pcap_ISCX.csv
+
+==================================================
+开始处理: Friday-WorkingHours-Morning.pcap_ISCX.csv
+正在预处理文件: Friday-WorkingHours-Morning.pcap_ISCX.csv
+成功使用 utf-8 编码读取文件
+缺失值列统计:
+Flow Bytes/s    28
+dtype: int64
+列 'Flow Bytes/s' 的缺失值已用中位数 5720.804603 填充
+包含无穷值的列:
+- Flow Bytes/s: 94个无穷值
+  已用中位数 5715.306305 替换无穷值
+- Flow Packets/s: 122个无穷值
+  已用中位数 98.12579727 替换无穷值
+
+标签分布:
+BENIGN    189067
+BOT         1966
+Name: Label, dtype: int64
+
+潜在异常值报告 (使用IQR方法):
+- Destination Port: 31962个异常值 (16.73%)
+- Flow Duration: 42060个异常值 (22.02%)
+- Total Fwd Packets: 23692个异常值 (12.40%)
+- Total Backward Packets: 31931个异常值 (16.71%)
+- Total Length of Fwd Packets: 31451个异常值 (16.46%)
+- Total Length of Bwd Packets: 30824个异常值 (16.14%)
+- Fwd Packet Length Max: 41948个异常值 (21.96%)
+- Fwd Packet Length Min: 648个异常值 (0.34%)
+- Fwd Packet Length Mean: 7249个异常值 (3.79%)
+- Fwd Packet Length Std: 33420个异常值 (17.49%)
+- Bwd Packet Length Max: 31996个异常值 (16.75%)
+- Bwd Packet Length Min: 198个异常值 (0.10%)
+- Bwd Packet Length Mean: 12354个异常值 (6.47%)
+- Bwd Packet Length Std: 44647个异常值 (23.37%)
+- Flow Bytes/s: 23713个异常值 (12.41%)
+- Flow Packets/s: 13291个异常值 (6.96%)
+- Flow IAT Mean: 37007个异常值 (19.37%)
+- Flow IAT Std: 41397个异常值 (21.67%)
+- Flow IAT Max: 42350个异常值 (22.17%)
+- Flow IAT Min: 39795个异常值 (20.83%)
+- Fwd IAT Total: 42140个异常值 (22.06%)
+- Fwd IAT Mean: 41161个异常值 (21.55%)
+- Fwd IAT Std: 38609个异常值 (20.21%)
+- Fwd IAT Max: 42094个异常值 (22.03%)
+- Fwd IAT Min: 32483个异常值 (17.00%)
+- Bwd IAT Total: 41546个异常值 (21.75%)
+- Bwd IAT Mean: 42925个异常值 (22.47%)
+- Bwd IAT Std: 43911个异常值 (22.99%)
+- Bwd IAT Max: 38663个异常值 (20.24%)
+- Bwd IAT Min: 19256个异常值 (10.08%)
+- Fwd PSH Flags: 9736个异常值 (5.10%)
+- Fwd Header Length: 24510个异常值 (12.83%)
+- Bwd Header Length: 26500个异常值 (13.87%)
+- Fwd Packets/s: 14277个异常值 (7.47%)
+- Bwd Packets/s: 5666个异常值 (2.97%)
+- Min Packet Length: 478个异常值 (0.25%)
+- Max Packet Length: 33339个异常值 (17.45%)
+- Packet Length Mean: 12272个异常值 (6.42%)
+- Packet Length Std: 28484个异常值 (14.91%)
+- Packet Length Variance: 35040个异常值 (18.34%)
+- FIN Flag Count: 2474个异常值 (1.30%)
+- SYN Flag Count: 9736个异常值 (5.10%)
+- RST Flag Count: 48个异常值 (0.03%)
+- PSH Flag Count: 43302个异常值 (22.67%)
+- URG Flag Count: 18996个异常值 (9.94%)
+- ECE Flag Count: 48个异常值 (0.03%)
+- Down/Up Ratio: 74个异常值 (0.04%)
+- Average Packet Size: 8710个异常值 (4.56%)
+- Avg Fwd Segment Size: 7249个异常值 (3.79%)
+- Avg Bwd Segment Size: 12354个异常值 (6.47%)
+- Fwd Header Length.1: 24510个异常值 (12.83%)
+- Subflow Fwd Packets: 23692个异常值 (12.40%)
+- Subflow Fwd Bytes: 31451个异常值 (16.46%)
+- Subflow Bwd Packets: 31931个异常值 (16.71%)
+- Subflow Bwd Bytes: 30824个异常值 (16.14%)
+- Init_Win_bytes_forward: 6960个异常值 (3.64%)
+- Init_Win_bytes_backward: 21025个异常值 (11.01%)
+- act_data_pkt_fwd: 16371个异常值 (8.57%)
+- Active Mean: 30440个异常值 (15.93%)
+- Active Std: 17745个异常值 (9.29%)
+- Active Max: 30440个异常值 (15.93%)
+- Active Min: 30440个异常值 (15.93%)
+- Idle Mean: 30543个异常值 (15.99%)
+- Idle Std: 17799个异常值 (9.32%)
+- Idle Max: 30543个异常值 (15.99%)
+- Idle Min: 30543个异常值 (15.99%)
+预处理完成: Friday-WorkingHours-Morning.pcap_ISCX.csv
+处理后数据形状: (191033, 81)
+保存预处理后的文件到: /root/autodl-tmp/projects/DL/dataset/preprocessed/preprocessed_Friday-WorkingHours-Morning.pcap_ISCX.csv
+
+==================================================
+开始处理: Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv
+正在预处理文件: Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv
+成功使用 utf-8 编码读取文件
+缺失值列统计:
+Flow Bytes/s    15
+dtype: int64
+列 'Flow Bytes/s' 的缺失值已用中位数 125000.0 填充
+包含无穷值的列:
+- Flow Bytes/s: 356个无穷值
+  已用中位数 125000.0 替换无穷值
+- Flow Packets/s: 371个无穷值
+  已用中位数 30769.23077 替换无穷值
+
+标签分布:
+PORTSCAN    158930
+BENIGN      127537
+Name: Label, dtype: int64
+
+潜在异常值报告 (使用IQR方法):
+- Destination Port: 33393个异常值 (11.66%)
+- Flow Duration: 42765个异常值 (14.93%)
+- Total Fwd Packets: 25830个异常值 (9.02%)
+- Total Backward Packets: 22858个异常值 (7.98%)
+- Total Length of Fwd Packets: 28427个异常值 (9.92%)
+- Total Length of Bwd Packets: 27198个异常值 (9.49%)
+- Fwd Packet Length Max: 28109个异常值 (9.81%)
+- Fwd Packet Length Min: 59403个异常值 (20.74%)
+- Fwd Packet Length Mean: 7037个异常值 (2.46%)
+- Fwd Packet Length Std: 40898个异常值 (14.28%)
+- Bwd Packet Length Max: 26181个异常值 (9.14%)
+- Bwd Packet Length Min: 118017个异常值 (41.20%)
+- Bwd Packet Length Mean: 19826个异常值 (6.92%)
+- Bwd Packet Length Std: 30448个异常值 (10.63%)
+- Flow Bytes/s: 31508个异常值 (11.00%)
+- Flow Packets/s: 13317个异常值 (4.65%)
+- Flow IAT Mean: 46428个异常值 (16.21%)
+- Flow IAT Std: 59524个异常值 (20.78%)
+- Flow IAT Max: 40417个异常值 (14.11%)
+- Flow IAT Min: 26575个异常值 (9.28%)
+- Fwd IAT Total: 63354个异常值 (22.12%)
+- Fwd IAT Mean: 62966个异常值 (21.98%)
+- Fwd IAT Std: 44375个异常值 (15.49%)
+- Fwd IAT Max: 63016个异常值 (22.00%)
+- Fwd IAT Min: 44763个异常值 (15.63%)
+- Bwd IAT Total: 49039个异常值 (17.12%)
+- Bwd IAT Mean: 49153个异常值 (17.16%)
+- Bwd IAT Std: 30704个异常值 (10.72%)
+- Bwd IAT Max: 49038个异常值 (17.12%)
+- Bwd IAT Min: 34984个异常值 (12.21%)
+- Fwd PSH Flags: 6014个异常值 (2.10%)
+- Fwd Header Length: 28465个异常值 (9.94%)
+- Bwd Header Length: 26627个异常值 (9.29%)
+- Fwd Packets/s: 13487个异常值 (4.71%)
+- Bwd Packets/s: 6628个异常值 (2.31%)
+- Min Packet Length: 59266个异常值 (20.69%)
+- Max Packet Length: 28146个异常值 (9.83%)
+- Packet Length Mean: 16973个异常值 (5.92%)
+- Packet Length Std: 34860个异常值 (12.17%)
+- Packet Length Variance: 51074个异常值 (17.83%)
+- FIN Flag Count: 2490个异常值 (0.87%)
+- SYN Flag Count: 6014个异常值 (2.10%)
+- RST Flag Count: 21个异常值 (0.01%)
+- ACK Flag Count: 35555个异常值 (12.41%)
+- URG Flag Count: 12797个异常值 (4.47%)
+- ECE Flag Count: 21个异常值 (0.01%)
+- Down/Up Ratio: 46651个异常值 (16.28%)
+- Average Packet Size: 14094个异常值 (4.92%)
+- Avg Fwd Segment Size: 7037个异常值 (2.46%)
+- Avg Bwd Segment Size: 19826个异常值 (6.92%)
+- Fwd Header Length.1: 28465个异常值 (9.94%)
+- Subflow Fwd Packets: 25830个异常值 (9.02%)
+- Subflow Fwd Bytes: 28427个异常值 (9.92%)
+- Subflow Bwd Packets: 22858个异常值 (7.98%)
+- Subflow Bwd Bytes: 27198个异常值 (9.49%)
+- Init_Win_bytes_backward: 48404个异常值 (16.90%)
+- act_data_pkt_fwd: 19540个异常值 (6.82%)
+- Active Mean: 21326个异常值 (7.44%)
+- Active Std: 13558个异常值 (4.73%)
+- Active Max: 21326个异常值 (7.44%)
+- Active Min: 21326个异常值 (7.44%)
+- Idle Mean: 21355个异常值 (7.45%)
+- Idle Std: 13589个异常值 (4.74%)
+- Idle Max: 21355个异常值 (7.45%)
+- Idle Min: 21355个异常值 (7.45%)
+预处理完成: Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv
+处理后数据形状: (286467, 81)
+保存预处理后的文件到: /root/autodl-tmp/projects/DL/dataset/preprocessed/preprocessed_Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv
+
+==================================================
+开始处理: Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv
+正在预处理文件: Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv
+成功使用 utf-8 编码读取文件
+缺失值列统计:
+Flow Bytes/s    4
+dtype: int64
+列 'Flow Bytes/s' 的缺失值已用中位数 1136.605811 填充
+包含无穷值的列:
+- Flow Bytes/s: 30个无穷值
+  已用中位数 1133.638544 替换无穷值
+- Flow Packets/s: 34个无穷值
+  已用中位数 5.175420891 替换无穷值
+
+标签分布:
+DDOS      128027
+BENIGN     97718
+Name: Label, dtype: int64
+
+潜在异常值报告 (使用IQR方法):
+- Destination Port: 88794个异常值 (39.33%)
+- Flow Duration: 36099个异常值 (15.99%)
+- Total Fwd Packets: 6208个异常值 (2.75%)
+- Total Backward Packets: 4123个异常值 (1.83%)
+- Total Length of Fwd Packets: 33674个异常值 (14.92%)
+- Total Length of Bwd Packets: 1459个异常值 (0.65%)
+- Fwd Packet Length Max: 32438个异常值 (14.37%)
+- Fwd Packet Length Min: 35640个异常值 (15.79%)
+- Fwd Packet Length Mean: 23059个异常值 (10.21%)
+- Fwd Packet Length Std: 28956个异常值 (12.83%)
+- Bwd Packet Length Min: 33159个异常值 (14.69%)
+- Flow Bytes/s: 42059个异常值 (18.63%)
+- Flow Packets/s: 32816个异常值 (14.54%)
+- Flow IAT Mean: 4474个异常值 (1.98%)
+- Flow IAT Std: 30841个异常值 (13.66%)
+- Flow IAT Max: 32094个异常值 (14.22%)
+- Flow IAT Min: 28648个异常值 (12.69%)
+- Fwd IAT Total: 36089个异常值 (15.99%)
+- Fwd IAT Mean: 31534个异常值 (13.97%)
+- Fwd IAT Std: 31160个异常值 (13.80%)
+- Fwd IAT Max: 32139个异常值 (14.24%)
+- Fwd IAT Min: 18108个异常值 (8.02%)
+- Bwd IAT Total: 28614个异常值 (12.68%)
+- Bwd IAT Mean: 26979个异常值 (11.95%)
+- Bwd IAT Std: 26899个异常值 (11.92%)
+- Bwd IAT Max: 28557个异常值 (12.65%)
+- Bwd IAT Min: 18906个异常值 (8.37%)
+- Fwd PSH Flags: 7500个异常值 (3.32%)
+- Fwd Header Length: 9451个异常值 (4.19%)
+- Bwd Header Length: 5157个异常值 (2.28%)
+- Fwd Packets/s: 32354个异常值 (14.33%)
+- Bwd Packets/s: 33730个异常值 (14.94%)
+- Min Packet Length: 32341个异常值 (14.33%)
+- Packet Length Variance: 274个异常值 (0.12%)
+- FIN Flag Count: 603个异常值 (0.27%)
+- SYN Flag Count: 7500个异常值 (3.32%)
+- RST Flag Count: 27个异常值 (0.01%)
+- URG Flag Count: 31774个异常值 (14.08%)
+- ECE Flag Count: 27个异常值 (0.01%)
+- Down/Up Ratio: 16852个异常值 (7.47%)
+- Avg Fwd Segment Size: 23059个异常值 (10.21%)
+- Fwd Header Length.1: 9451个异常值 (4.19%)
+- Subflow Fwd Packets: 6208个异常值 (2.75%)
+- Subflow Fwd Bytes: 33674个异常值 (14.92%)
+- Subflow Bwd Packets: 4123个异常值 (1.83%)
+- Subflow Bwd Bytes: 1459个异常值 (0.65%)
+- Init_Win_bytes_forward: 1904个异常值 (0.84%)
+- Init_Win_bytes_backward: 6847个异常值 (3.03%)
+- act_data_pkt_fwd: 4499个异常值 (1.99%)
+- min_seg_size_forward: 26655个异常值 (11.81%)
+- Active Mean: 40601个异常值 (17.99%)
+- Active Std: 5686个异常值 (2.52%)
+- Active Max: 40602个异常值 (17.99%)
+- Active Min: 40511个异常值 (17.95%)
+- Idle Mean: 31906个异常值 (14.13%)
+- Idle Std: 22539个异常值 (9.98%)
+- Idle Max: 32005个异常值 (14.18%)
+- Idle Min: 15035个异常值 (6.66%)
+预处理完成: Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv
+处理后数据形状: (225745, 81)
+保存预处理后的文件到: /root/autodl-tmp/projects/DL/dataset/preprocessed/preprocessed_Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv
+
+==================================================
+所有 8 个文件处理完成!
+
+合并预处理后的文件...
+合并后的数据形状: (2830743, 81)
+
+合并后的标签分布:
+BENIGN                        2273097
+DOS HULK                       231073
+PORTSCAN                       158930
+DDOS                           128027
+DOS GOLDENEYE                   10293
+FTP-PATATOR                      7938
+SSH-PATATOR                      5897
+DOS SLOWLORIS                    5796
+DOS SLOWHTTPTEST                 5499
+BOT                              1966
+WEB ATTACK � BRUTE FORCE         1507
+WEB ATTACK � XSS                  652
+INFILTRATION                       36
+WEB ATTACK � SQL INJECTION         21
+HEARTBLEED                         11
+Name: Label, dtype: int64
+保存合并后的数据到: /root/autodl-tmp/projects/DL/dataset/preprocessed/CICIDS2017_merged_preprocessed.csv

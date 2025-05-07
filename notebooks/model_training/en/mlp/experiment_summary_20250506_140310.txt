@@ -1,0 +1,40 @@
+=== CICIDS2017 Dataset Network Traffic Anomaly Detection Deep Learning Experiment Summary ===
+
+Experiment Time: 2025-05-06 14:03:10
+
+== Base MLP Model Performance ==
+Architecture: [256, 128, 64, 32]
+Test Set Accuracy: 0.9427
+Test Set F1 Score: 0.8343
+ROC AUC: 0.9770
+
+== Optimal Decision Threshold ==
+Best Threshold: 0.3889
+F1 Score at This Threshold: 0.8587
+Accuracy at This Threshold: 0.9498
+
+== Inference Performance ==
+Batch Size 1: 16.5 samples/second
+Batch Size 8: 123.4 samples/second
+Batch Size 32: 579.3 samples/second
+Batch Size 64: 1106.9 samples/second
+Batch Size 128: 2163.3 samples/second
+Batch Size 256: 3876.3 samples/second
+
+== Important Features ==
+1. Idle Mean: 0.289051
+2. Idle Max: 0.270210
+3. Idle Min: 0.206535
+4. Active Max: 0.144073
+5. Active Mean: 0.133051
+6. Active Min: 0.129187
+7. Bwd IAT Total: 0.084045
+8. Destination Port: 0.073287
+9. Bwd IAT Mean: 0.068381
+10. Fwd IAT Min: 0.043929
+
+== Conclusions ==
+1. Base MLP model performs well on network traffic anomaly detection task
+2. Optimizing decision threshold can further improve model performance
+3. MLP model has high inference speed, suitable for real-time network traffic monitoring
+4. Model demonstrates good generalization ability, effectively distinguishing normal and anomalous traffic

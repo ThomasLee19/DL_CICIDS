@@ -1,0 +1,744 @@
+Created output directory: /root/autodl-tmp/projects/DL/dataset/preprocessed
+Found 8 CSV files
+
+==================================================
+Starting processing: Wednesday-workingHours.pcap_ISCX.csv
+Preprocessing file: Wednesday-workingHours.pcap_ISCX.csv
+Successfully read file using utf-8 encoding
+Missing values statistics:
+Flow Bytes/s    1008
+dtype: int64
+Missing values in column 'Flow Bytes/s' filled with median 519.0026125
+Columns containing infinity values:
+- Flow Bytes/s: 289 infinity values
+  Infinity values replaced with median 519.0026125
+- Flow Packets/s: 1297 infinity values
+  Infinity values replaced with median 62.99659031
+
+Label distribution:
+BENIGN              440031
+DOS HULK            231073
+DOS GOLDENEYE        10293
+DOS SLOWLORIS         5796
+DOS SLOWHTTPTEST      5499
+HEARTBLEED              11
+Name: Label, dtype: int64
+
+Potential outlier report (using IQR method):
+- Destination Port: 82026 outliers (11.84%)
+- Total Fwd Packets: 19031 outliers (2.75%)
+- Total Backward Packets: 18604 outliers (2.69%)
+- Total Length of Fwd Packets: 40229 outliers (5.81%)
+- Total Length of Bwd Packets: 7534 outliers (1.09%)
+- Fwd Packet Length Max: 15549 outliers (2.24%)
+- Fwd Packet Length Min: 2099 outliers (0.30%)
+- Fwd Packet Length Mean: 19687 outliers (2.84%)
+- Fwd Packet Length Std: 12571 outliers (1.81%)
+- Bwd Packet Length Max: 2148 outliers (0.31%)
+- Bwd Packet Length Min: 8067 outliers (1.16%)
+- Bwd Packet Length Mean: 124 outliers (0.02%)
+- Bwd Packet Length Std: 17105 outliers (2.47%)
+- Flow Bytes/s: 150972 outliers (21.79%)
+- Flow Packets/s: 81683 outliers (11.79%)
+- Flow IAT Mean: 10364 outliers (1.50%)
+- Flow IAT Std: 151797 outliers (21.91%)
+- Flow IAT Max: 18424 outliers (2.66%)
+- Flow IAT Min: 109727 outliers (15.84%)
+- Fwd IAT Mean: 13348 outliers (1.93%)
+- Fwd IAT Std: 151161 outliers (21.82%)
+- Fwd IAT Max: 90629 outliers (13.08%)
+- Fwd IAT Min: 129330 outliers (18.67%)
+- Bwd IAT Total: 137709 outliers (19.88%)
+- Bwd IAT Mean: 134174 outliers (19.37%)
+- Bwd IAT Std: 121344 outliers (17.52%)
+- Bwd IAT Max: 135255 outliers (19.53%)
+- Bwd IAT Min: 53944 outliers (7.79%)
+- Fwd PSH Flags: 29233 outliers (4.22%)
+- Fwd Header Length: 16535 outliers (2.39%)
+- Bwd Header Length: 13994 outliers (2.02%)
+- Fwd Packets/s: 86613 outliers (12.50%)
+- Bwd Packets/s: 129234 outliers (18.66%)
+- Min Packet Length: 1383 outliers (0.20%)
+- Max Packet Length: 37 outliers (0.01%)
+- Packet Length Std: 165 outliers (0.02%)
+- Packet Length Variance: 43175 outliers (6.23%)
+- FIN Flag Count: 67401 outliers (9.73%)
+- SYN Flag Count: 29233 outliers (4.22%)
+- RST Flag Count: 234 outliers (0.03%)
+- PSH Flag Count: 134172 outliers (19.37%)
+- URG Flag Count: 45976 outliers (6.64%)
+- ECE Flag Count: 235 outliers (0.03%)
+- Down/Up Ratio: 223 outliers (0.03%)
+- Avg Fwd Segment Size: 19687 outliers (2.84%)
+- Avg Bwd Segment Size: 124 outliers (0.02%)
+- Fwd Header Length.1: 16535 outliers (2.39%)
+- Subflow Fwd Packets: 19031 outliers (2.75%)
+- Subflow Fwd Bytes: 40229 outliers (5.81%)
+- Subflow Bwd Packets: 18604 outliers (2.69%)
+- Subflow Bwd Bytes: 7534 outliers (1.09%)
+- Init_Win_bytes_forward: 156860 outliers (22.64%)
+- Init_Win_bytes_backward: 47623 outliers (6.87%)
+- act_data_pkt_fwd: 37556 outliers (5.42%)
+- Active Mean: 126382 outliers (18.24%)
+- Active Std: 44539 outliers (6.43%)
+- Active Max: 126385 outliers (18.25%)
+- Active Min: 123648 outliers (17.85%)
+- Idle Mean: 148623 outliers (21.46%)
+- Idle Std: 50833 outliers (7.34%)
+- Idle Max: 151225 outliers (21.83%)
+- Idle Min: 158383 outliers (22.86%)
+Preprocessing completed: Wednesday-workingHours.pcap_ISCX.csv
+Processed data shape: (692703, 81)
+Saved preprocessed file to: /root/autodl-tmp/projects/DL/dataset/preprocessed/preprocessed_Wednesday-workingHours.pcap_ISCX.csv
+
+==================================================
+Starting processing: Tuesday-WorkingHours.pcap_ISCX.csv
+Preprocessing file: Tuesday-WorkingHours.pcap_ISCX.csv
+Successfully read file using utf-8 encoding
+Missing values statistics:
+Flow Bytes/s    201
+dtype: int64
+Missing values in column 'Flow Bytes/s' filled with median 2478.0171259999997
+Columns containing infinity values:
+- Flow Bytes/s: 63 infinity values
+  Infinity values replaced with median 2478.0171259999997
+- Flow Packets/s: 264 infinity values
+  Infinity values replaced with median 120.2742252
+
+Label distribution:
+BENIGN         432074
+FTP-PATATOR      7938
+SSH-PATATOR      5897
+Name: Label, dtype: int64
+
+Potential outlier report (using IQR method):
+- Destination Port: 82468 outliers (18.49%)
+- Flow Duration: 98699 outliers (22.13%)
+- Total Fwd Packets: 62462 outliers (14.01%)
+- Total Backward Packets: 84428 outliers (18.93%)
+- Total Length of Fwd Packets: 72068 outliers (16.16%)
+- Total Length of Bwd Packets: 76132 outliers (17.07%)
+- Fwd Packet Length Max: 82411 outliers (18.48%)
+- Fwd Packet Length Min: 1230 outliers (0.28%)
+- Fwd Packet Length Mean: 12082 outliers (2.71%)
+- Fwd Packet Length Std: 77457 outliers (17.37%)
+- Bwd Packet Length Max: 79729 outliers (17.88%)
+- Bwd Packet Length Min: 569 outliers (0.13%)
+- Bwd Packet Length Mean: 34590 outliers (7.76%)
+- Bwd Packet Length Std: 108778 outliers (24.39%)
+- Flow Bytes/s: 99474 outliers (22.31%)
+- Flow Packets/s: 33634 outliers (7.54%)
+- Flow IAT Mean: 77735 outliers (17.43%)
+- Flow IAT Std: 97325 outliers (21.83%)
+- Flow IAT Max: 98727 outliers (22.14%)
+- Flow IAT Min: 88319 outliers (19.81%)
+- Fwd IAT Total: 97556 outliers (21.88%)
+- Fwd IAT Mean: 97153 outliers (21.79%)
+- Fwd IAT Std: 92452 outliers (20.73%)
+- Fwd IAT Max: 99184 outliers (22.24%)
+- Fwd IAT Min: 76916 outliers (17.25%)
+- Bwd IAT Total: 89152 outliers (19.99%)
+- Bwd IAT Mean: 94606 outliers (21.22%)
+- Bwd IAT Std: 109438 outliers (24.54%)
+- Bwd IAT Max: 86795 outliers (19.46%)
+- Bwd IAT Min: 106105 outliers (23.80%)
+- Fwd PSH Flags: 27077 outliers (6.07%)
+- Fwd Header Length: 58663 outliers (13.16%)
+- Bwd Header Length: 62856 outliers (14.10%)
+- Fwd Packets/s: 36608 outliers (8.21%)
+- Bwd Packets/s: 16042 outliers (3.60%)
+- Min Packet Length: 893 outliers (0.20%)
+- Max Packet Length: 83264 outliers (18.67%)
+- Packet Length Mean: 29816 outliers (6.69%)
+- Packet Length Std: 72029 outliers (16.15%)
+- Packet Length Variance: 89519 outliers (20.08%)
+- FIN Flag Count: 8196 outliers (1.84%)
+- SYN Flag Count: 27077 outliers (6.07%)
+- RST Flag Count: 150 outliers (0.03%)
+- PSH Flag Count: 108176 outliers (24.26%)
+- URG Flag Count: 51320 outliers (11.51%)
+- ECE Flag Count: 151 outliers (0.03%)
+- Down/Up Ratio: 245 outliers (0.05%)
+- Average Packet Size: 22712 outliers (5.09%)
+- Avg Fwd Segment Size: 12082 outliers (2.71%)
+- Avg Bwd Segment Size: 34590 outliers (7.76%)
+- Fwd Header Length.1: 58663 outliers (13.16%)
+- Subflow Fwd Packets: 62462 outliers (14.01%)
+- Subflow Fwd Bytes: 72068 outliers (16.16%)
+- Subflow Bwd Packets: 84428 outliers (18.93%)
+- Subflow Bwd Bytes: 76132 outliers (17.07%)
+- Init_Win_bytes_forward: 24350 outliers (5.46%)
+- Init_Win_bytes_backward: 49352 outliers (11.07%)
+- act_data_pkt_fwd: 25653 outliers (5.75%)
+- min_seg_size_forward: 13 outliers (0.00%)
+- Active Mean: 64353 outliers (14.43%)
+- Active Std: 39028 outliers (8.75%)
+- Active Max: 64353 outliers (14.43%)
+- Active Min: 64353 outliers (14.43%)
+- Idle Mean: 64471 outliers (14.46%)
+- Idle Std: 39184 outliers (8.79%)
+- Idle Max: 64471 outliers (14.46%)
+- Idle Min: 64471 outliers (14.46%)
+Preprocessing completed: Tuesday-WorkingHours.pcap_ISCX.csv
+Processed data shape: (445909, 81)
+Saved preprocessed file to: /root/autodl-tmp/projects/DL/dataset/preprocessed/preprocessed_Tuesday-WorkingHours.pcap_ISCX.csv
+
+==================================================
+Starting processing: Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv
+Preprocessing file: Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv
+Successfully read file using utf-8 encoding
+Missing values statistics:
+Flow Bytes/s    20
+dtype: int64
+Missing values in column 'Flow Bytes/s' filled with median 4837.9919595
+Columns containing infinity values:
+- Flow Bytes/s: 115 infinity values
+  Infinity values replaced with median 4827.778294
+- Flow Packets/s: 135 infinity values
+  Infinity values replaced with median 93.63880392
+
+Label distribution:
+BENIGN                        168186
+WEB ATTACK � BRUTE FORCE        1507
+WEB ATTACK � XSS                 652
+WEB ATTACK � SQL INJECTION        21
+Name: Label, dtype: int64
+
+Potential outlier report (using IQR method):
+- Destination Port: 28761 outliers (16.88%)
+- Flow Duration: 38706 outliers (22.72%)
+- Total Fwd Packets: 18827 outliers (11.05%)
+- Total Backward Packets: 30675 outliers (18.01%)
+- Total Length of Fwd Packets: 29107 outliers (17.08%)
+- Total Length of Bwd Packets: 28268 outliers (16.59%)
+- Fwd Packet Length Max: 36377 outliers (21.35%)
+- Fwd Packet Length Min: 500 outliers (0.29%)
+- Fwd Packet Length Mean: 4782 outliers (2.81%)
+- Fwd Packet Length Std: 32973 outliers (19.35%)
+- Bwd Packet Length Max: 29915 outliers (17.56%)
+- Bwd Packet Length Min: 197 outliers (0.12%)
+- Bwd Packet Length Mean: 11788 outliers (6.92%)
+- Bwd Packet Length Std: 39021 outliers (22.90%)
+- Flow Bytes/s: 28185 outliers (16.54%)
+- Flow Packets/s: 11950 outliers (7.01%)
+- Flow IAT Mean: 31763 outliers (18.64%)
+- Flow IAT Std: 38831 outliers (22.79%)
+- Flow IAT Max: 38677 outliers (22.70%)
+- Flow IAT Min: 35858 outliers (21.05%)
+- Fwd IAT Total: 38336 outliers (22.50%)
+- Fwd IAT Mean: 38111 outliers (22.37%)
+- Fwd IAT Std: 36892 outliers (21.65%)
+- Fwd IAT Max: 39577 outliers (23.23%)
+- Fwd IAT Min: 27201 outliers (15.97%)
+- Bwd IAT Total: 42151 outliers (24.74%)
+- Bwd IAT Mean: 41886 outliers (24.59%)
+- Bwd IAT Std: 38730 outliers (22.73%)
+- Bwd IAT Max: 42090 outliers (24.71%)
+- Bwd IAT Min: 15129 outliers (8.88%)
+- Fwd PSH Flags: 7479 outliers (4.39%)
+- Fwd Header Length: 20673 outliers (12.13%)
+- Bwd Header Length: 25681 outliers (15.07%)
+- Fwd Packets/s: 12906 outliers (7.58%)
+- Bwd Packets/s: 8801 outliers (5.17%)
+- Min Packet Length: 380 outliers (0.22%)
+- Max Packet Length: 31553 outliers (18.52%)
+- Packet Length Mean: 10356 outliers (6.08%)
+- Packet Length Std: 28275 outliers (16.60%)
+- Packet Length Variance: 34034 outliers (19.98%)
+- FIN Flag Count: 1847 outliers (1.08%)
+- SYN Flag Count: 7479 outliers (4.39%)
+- RST Flag Count: 56 outliers (0.03%)
+- PSH Flag Count: 40473 outliers (23.76%)
+- URG Flag Count: 19316 outliers (11.34%)
+- ECE Flag Count: 56 outliers (0.03%)
+- Down/Up Ratio: 34 outliers (0.02%)
+- Average Packet Size: 6995 outliers (4.11%)
+- Avg Fwd Segment Size: 4782 outliers (2.81%)
+- Avg Bwd Segment Size: 11788 outliers (6.92%)
+- Fwd Header Length.1: 20673 outliers (12.13%)
+- Subflow Fwd Packets: 18827 outliers (11.05%)
+- Subflow Fwd Bytes: 29107 outliers (17.08%)
+- Subflow Bwd Packets: 30675 outliers (18.01%)
+- Subflow Bwd Bytes: 28268 outliers (16.59%)
+- Init_Win_bytes_forward: 5218 outliers (3.06%)
+- Init_Win_bytes_backward: 17757 outliers (10.42%)
+- act_data_pkt_fwd: 11404 outliers (6.69%)
+- Active Mean: 27840 outliers (16.34%)
+- Active Std: 17636 outliers (10.35%)
+- Active Max: 27840 outliers (16.34%)
+- Active Min: 27840 outliers (16.34%)
+- Idle Mean: 28001 outliers (16.44%)
+- Idle Std: 17708 outliers (10.39%)
+- Idle Max: 28001 outliers (16.44%)
+- Idle Min: 28001 outliers (16.44%)
+Preprocessing completed: Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv
+Processed data shape: (170366, 81)
+Saved preprocessed file to: /root/autodl-tmp/projects/DL/dataset/preprocessed/preprocessed_Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv
+
+==================================================
+Starting processing: Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv
+Preprocessing file: Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv
+Successfully read file using utf-8 encoding
+Missing values statistics:
+Flow Bytes/s    18
+dtype: int64
+Missing values in column 'Flow Bytes/s' filled with median 19567.551825000002
+Columns containing infinity values:
+- Flow Bytes/s: 189 infinity values
+  Infinity values replaced with median 19323.6715
+- Flow Packets/s: 207 infinity values
+  Infinity values replaced with median 10230.17903
+
+Label distribution:
+BENIGN          288566
+INFILTRATION        36
+Name: Label, dtype: int64
+
+Potential outlier report (using IQR method):
+- Destination Port: 44137 outliers (15.29%)
+- Flow Duration: 56653 outliers (19.63%)
+- Total Fwd Packets: 43980 outliers (15.24%)
+- Total Backward Packets: 40585 outliers (14.06%)
+- Total Length of Fwd Packets: 46598 outliers (16.15%)
+- Total Length of Bwd Packets: 40200 outliers (13.93%)
+- Fwd Packet Length Max: 44465 outliers (15.41%)
+- Fwd Packet Length Min: 813 outliers (0.28%)
+- Fwd Packet Length Mean: 7821 outliers (2.71%)
+- Fwd Packet Length Std: 70668 outliers (24.49%)
+- Bwd Packet Length Max: 41766 outliers (14.47%)
+- Bwd Packet Length Min: 624 outliers (0.22%)
+- Bwd Packet Length Mean: 21615 outliers (7.49%)
+- Bwd Packet Length Std: 54271 outliers (18.80%)
+- Flow Bytes/s: 32523 outliers (11.27%)
+- Flow Packets/s: 31189 outliers (10.81%)
+- Flow IAT Mean: 51405 outliers (17.81%)
+- Flow IAT Std: 53790 outliers (18.64%)
+- Flow IAT Max: 54524 outliers (18.89%)
+- Flow IAT Min: 46042 outliers (15.95%)
+- Fwd IAT Total: 59219 outliers (20.52%)
+- Fwd IAT Mean: 56220 outliers (19.48%)
+- Fwd IAT Std: 70814 outliers (24.54%)
+- Fwd IAT Max: 56770 outliers (19.67%)
+- Fwd IAT Min: 34777 outliers (12.05%)
+- Bwd IAT Total: 58824 outliers (20.38%)
+- Bwd IAT Mean: 58300 outliers (20.20%)
+- Bwd IAT Std: 54266 outliers (18.80%)
+- Bwd IAT Max: 58698 outliers (20.34%)
+- Bwd IAT Min: 19892 outliers (6.89%)
+- Fwd PSH Flags: 10451 outliers (3.62%)
+- Fwd URG Flags: 315 outliers (0.11%)
+- Fwd Header Length: 44320 outliers (15.36%)
+- Bwd Header Length: 33964 outliers (11.77%)
+- Fwd Packets/s: 30551 outliers (10.59%)
+- Bwd Packets/s: 10441 outliers (3.62%)
+- Min Packet Length: 616 outliers (0.21%)
+- Max Packet Length: 45502 outliers (15.77%)
+- Packet Length Mean: 19652 outliers (6.81%)
+- Packet Length Std: 43643 outliers (15.12%)
+- Packet Length Variance: 51398 outliers (17.81%)
+- FIN Flag Count: 4980 outliers (1.73%)
+- SYN Flag Count: 10451 outliers (3.62%)
+- RST Flag Count: 78 outliers (0.03%)
+- ACK Flag Count: 66123 outliers (22.91%)
+- URG Flag Count: 24655 outliers (8.54%)
+- CWE Flag Count: 315 outliers (0.11%)
+- ECE Flag Count: 78 outliers (0.03%)
+- Down/Up Ratio: 276 outliers (0.10%)
+- Average Packet Size: 12835 outliers (4.45%)
+- Avg Fwd Segment Size: 7821 outliers (2.71%)
+- Avg Bwd Segment Size: 21615 outliers (7.49%)
+- Fwd Header Length.1: 44320 outliers (15.36%)
+- Subflow Fwd Packets: 43980 outliers (15.24%)
+- Subflow Fwd Bytes: 46598 outliers (16.15%)
+- Subflow Bwd Packets: 40585 outliers (14.06%)
+- Subflow Bwd Bytes: 40200 outliers (13.93%)
+- Init_Win_bytes_forward: 65924 outliers (22.84%)
+- Init_Win_bytes_backward: 29539 outliers (10.24%)
+- act_data_pkt_fwd: 134177 outliers (46.49%)
+- Active Mean: 36939 outliers (12.80%)
+- Active Std: 23559 outliers (8.16%)
+- Active Max: 36939 outliers (12.80%)
+- Active Min: 36939 outliers (12.80%)
+- Idle Mean: 37034 outliers (12.83%)
+- Idle Std: 23632 outliers (8.19%)
+- Idle Max: 37034 outliers (12.83%)
+- Idle Min: 37034 outliers (12.83%)
+Preprocessing completed: Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv
+Processed data shape: (288602, 81)
+Saved preprocessed file to: /root/autodl-tmp/projects/DL/dataset/preprocessed/preprocessed_Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv
+
+==================================================
+Starting processing: Monday-WorkingHours.pcap_ISCX.csv
+Preprocessing file: Monday-WorkingHours.pcap_ISCX.csv
+Successfully read file using utf-8 encoding
+Missing values statistics:
+Flow Bytes/s    64
+dtype: int64
+Missing values in column 'Flow Bytes/s' filled with median 5567.65958745595
+Columns containing infinity values:
+- Flow Bytes/s: 373 infinity values
+  Infinity values replaced with median 5558.0688942028
+- Flow Packets/s: 437 infinity values
+  Infinity values replaced with median 114.4813137876
+
+Label distribution:
+BENIGN    529918
+Name: Label, dtype: int64
+
+Potential outlier report (using IQR method):
+- Destination Port: 108215 outliers (20.42%)
+- Flow Duration: 114244 outliers (21.56%)
+- Total Fwd Packets: 68748 outliers (12.97%)
+- Total Backward Packets: 61367 outliers (11.58%)
+- Total Length of Fwd Packets: 87135 outliers (16.44%)
+- Total Length of Bwd Packets: 87127 outliers (16.44%)
+- Fwd Packet Length Max: 105567 outliers (19.92%)
+- Fwd Packet Length Min: 1335 outliers (0.25%)
+- Fwd Packet Length Mean: 17082 outliers (3.22%)
+- Fwd Packet Length Std: 99498 outliers (18.78%)
+- Bwd Packet Length Max: 91478 outliers (17.26%)
+- Bwd Packet Length Min: 715 outliers (0.13%)
+- Bwd Packet Length Mean: 32867 outliers (6.20%)
+- Bwd Packet Length Std: 122748 outliers (23.16%)
+- Flow Bytes/s: 99414 outliers (18.76%)
+- Flow Packets/s: 44968 outliers (8.49%)
+- Flow IAT Mean: 104109 outliers (19.65%)
+- Flow IAT Std: 110235 outliers (20.80%)
+- Flow IAT Max: 117045 outliers (22.09%)
+- Flow IAT Min: 102017 outliers (19.25%)
+- Fwd IAT Total: 109186 outliers (20.60%)
+- Fwd IAT Mean: 109045 outliers (20.58%)
+- Fwd IAT Std: 100135 outliers (18.90%)
+- Fwd IAT Max: 111779 outliers (21.09%)
+- Fwd IAT Min: 85094 outliers (16.06%)
+- Bwd IAT Total: 93571 outliers (17.66%)
+- Bwd IAT Mean: 89973 outliers (16.98%)
+- Bwd IAT Std: 131796 outliers (24.87%)
+- Bwd IAT Max: 91124 outliers (17.20%)
+- Bwd IAT Min: 119501 outliers (22.55%)
+- Fwd PSH Flags: 33988 outliers (6.41%)
+- Fwd Header Length: 68375 outliers (12.90%)
+- Bwd Header Length: 62869 outliers (11.86%)
+- Fwd Packets/s: 46133 outliers (8.71%)
+- Bwd Packets/s: 28944 outliers (5.46%)
+- Min Packet Length: 1097 outliers (0.21%)
+- Max Packet Length: 93629 outliers (17.67%)
+- Packet Length Mean: 27302 outliers (5.15%)
+- Packet Length Std: 70763 outliers (13.35%)
+- Packet Length Variance: 104011 outliers (19.63%)
+- FIN Flag Count: 12160 outliers (2.29%)
+- SYN Flag Count: 33988 outliers (6.41%)
+- RST Flag Count: 72 outliers (0.01%)
+- PSH Flag Count: 131752 outliers (24.86%)
+- URG Flag Count: 63586 outliers (12.00%)
+- ECE Flag Count: 73 outliers (0.01%)
+- Down/Up Ratio: 105 outliers (0.02%)
+- Average Packet Size: 19684 outliers (3.71%)
+- Avg Fwd Segment Size: 17082 outliers (3.22%)
+- Avg Bwd Segment Size: 32867 outliers (6.20%)
+- Fwd Header Length.1: 68375 outliers (12.90%)
+- Subflow Fwd Packets: 68748 outliers (12.97%)
+- Subflow Fwd Bytes: 87135 outliers (16.44%)
+- Subflow Bwd Packets: 61367 outliers (11.58%)
+- Subflow Bwd Bytes: 87127 outliers (16.44%)
+- Init_Win_bytes_forward: 48124 outliers (9.08%)
+- Init_Win_bytes_backward: 62856 outliers (11.86%)
+- act_data_pkt_fwd: 26355 outliers (4.97%)
+- min_seg_size_forward: 32 outliers (0.01%)
+- Active Mean: 75588 outliers (14.26%)
+- Active Std: 43783 outliers (8.26%)
+- Active Max: 75588 outliers (14.26%)
+- Active Min: 75588 outliers (14.26%)
+- Idle Mean: 76021 outliers (14.35%)
+- Idle Std: 43959 outliers (8.30%)
+- Idle Max: 76021 outliers (14.35%)
+- Idle Min: 76021 outliers (14.35%)
+Preprocessing completed: Monday-WorkingHours.pcap_ISCX.csv
+Processed data shape: (529918, 81)
+Saved preprocessed file to: /root/autodl-tmp/projects/DL/dataset/preprocessed/preprocessed_Monday-WorkingHours.pcap_ISCX.csv
+
+==================================================
+Starting processing: Friday-WorkingHours-Morning.pcap_ISCX.csv
+Preprocessing file: Friday-WorkingHours-Morning.pcap_ISCX.csv
+Successfully read file using utf-8 encoding
+Missing values statistics:
+Flow Bytes/s    28
+dtype: int64
+Missing values in column 'Flow Bytes/s' filled with median 5720.804603
+Columns containing infinity values:
+- Flow Bytes/s: 94 infinity values
+  Infinity values replaced with median 5715.306305
+- Flow Packets/s: 122 infinity values
+  Infinity values replaced with median 98.12579727
+
+Label distribution:
+BENIGN    189067
+BOT         1966
+Name: Label, dtype: int64
+
+Potential outlier report (using IQR method):
+- Destination Port: 31962 outliers (16.73%)
+- Flow Duration: 42060 outliers (22.02%)
+- Total Fwd Packets: 23692 outliers (12.40%)
+- Total Backward Packets: 31931 outliers (16.71%)
+- Total Length of Fwd Packets: 31451 outliers (16.46%)
+- Total Length of Bwd Packets: 30824 outliers (16.14%)
+- Fwd Packet Length Max: 41948 outliers (21.96%)
+- Fwd Packet Length Min: 648 outliers (0.34%)
+- Fwd Packet Length Mean: 7249 outliers (3.79%)
+- Fwd Packet Length Std: 33420 outliers (17.49%)
+- Bwd Packet Length Max: 31996 outliers (16.75%)
+- Bwd Packet Length Min: 198 outliers (0.10%)
+- Bwd Packet Length Mean: 12354 outliers (6.47%)
+- Bwd Packet Length Std: 44647 outliers (23.37%)
+- Flow Bytes/s: 23713 outliers (12.41%)
+- Flow Packets/s: 13291 outliers (6.96%)
+- Flow IAT Mean: 37007 outliers (19.37%)
+- Flow IAT Std: 41397 outliers (21.67%)
+- Flow IAT Max: 42350 outliers (22.17%)
+- Flow IAT Min: 39795 outliers (20.83%)
+- Fwd IAT Total: 42140 outliers (22.06%)
+- Fwd IAT Mean: 41161 outliers (21.55%)
+- Fwd IAT Std: 38609 outliers (20.21%)
+- Fwd IAT Max: 42094 outliers (22.03%)
+- Fwd IAT Min: 32483 outliers (17.00%)
+- Bwd IAT Total: 41546 outliers (21.75%)
+- Bwd IAT Mean: 42925 outliers (22.47%)
+- Bwd IAT Std: 43911 outliers (22.99%)
+- Bwd IAT Max: 38663 outliers (20.24%)
+- Bwd IAT Min: 19256 outliers (10.08%)
+- Fwd PSH Flags: 9736 outliers (5.10%)
+- Fwd Header Length: 24510 outliers (12.83%)
+- Bwd Header Length: 26500 outliers (13.87%)
+- Fwd Packets/s: 14277 outliers (7.47%)
+- Bwd Packets/s: 5666 outliers (2.97%)
+- Min Packet Length: 478 outliers (0.25%)
+- Max Packet Length: 33339 outliers (17.45%)
+- Packet Length Mean: 12272 outliers (6.42%)
+- Packet Length Std: 28484 outliers (14.91%)
+- Packet Length Variance: 35040 outliers (18.34%)
+- FIN Flag Count: 2474 outliers (1.30%)
+- SYN Flag Count: 9736 outliers (5.10%)
+- RST Flag Count: 48 outliers (0.03%)
+- PSH Flag Count: 43302 outliers (22.67%)
+- URG Flag Count: 18996 outliers (9.94%)
+- ECE Flag Count: 48 outliers (0.03%)
+- Down/Up Ratio: 74 outliers (0.04%)
+- Average Packet Size: 8710 outliers (4.56%)
+- Avg Fwd Segment Size: 7249 outliers (3.79%)
+- Avg Bwd Segment Size: 12354 outliers (6.47%)
+- Fwd Header Length.1: 24510 outliers (12.83%)
+- Subflow Fwd Packets: 23692 outliers (12.40%)
+- Subflow Fwd Bytes: 31451 outliers (16.46%)
+- Subflow Bwd Packets: 31931 outliers (16.71%)
+- Subflow Bwd Bytes: 30824 outliers (16.14%)
+- Init_Win_bytes_forward: 6960 outliers (3.64%)
+- Init_Win_bytes_backward: 21025 outliers (11.01%)
+- act_data_pkt_fwd: 16371 outliers (8.57%)
+- Active Mean: 30440 outliers (15.93%)
+- Active Std: 17745 outliers (9.29%)
+- Active Max: 30440 outliers (15.93%)
+- Active Min: 30440 outliers (15.93%)
+- Idle Mean: 30543 outliers (15.99%)
+- Idle Std: 17799 outliers (9.32%)
+- Idle Max: 30543 outliers (15.99%)
+- Idle Min: 30543 outliers (15.99%)
+Preprocessing completed: Friday-WorkingHours-Morning.pcap_ISCX.csv
+Processed data shape: (191033, 81)
+Saved preprocessed file to: /root/autodl-tmp/projects/DL/dataset/preprocessed/preprocessed_Friday-WorkingHours-Morning.pcap_ISCX.csv
+
+==================================================
+Starting processing: Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv
+Preprocessing file: Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv
+Successfully read file using utf-8 encoding
+Missing values statistics:
+Flow Bytes/s    15
+dtype: int64
+Missing values in column 'Flow Bytes/s' filled with median 125000.0
+Columns containing infinity values:
+- Flow Bytes/s: 356 infinity values
+  Infinity values replaced with median 125000.0
+- Flow Packets/s: 371 infinity values
+  Infinity values replaced with median 30769.23077
+
+Label distribution:
+PORTSCAN    158930
+BENIGN      127537
+Name: Label, dtype: int64
+
+Potential outlier report (using IQR method):
+- Destination Port: 33393 outliers (11.66%)
+- Flow Duration: 42765 outliers (14.93%)
+- Total Fwd Packets: 25830 outliers (9.02%)
+- Total Backward Packets: 22858 outliers (7.98%)
+- Total Length of Fwd Packets: 28427 outliers (9.92%)
+- Total Length of Bwd Packets: 27198 outliers (9.49%)
+- Fwd Packet Length Max: 28109 outliers (9.81%)
+- Fwd Packet Length Min: 59403 outliers (20.74%)
+- Fwd Packet Length Mean: 7037 outliers (2.46%)
+- Fwd Packet Length Std: 40898 outliers (14.28%)
+- Bwd Packet Length Max: 26181 outliers (9.14%)
+- Bwd Packet Length Min: 118017 outliers (41.20%)
+- Bwd Packet Length Mean: 19826 outliers (6.92%)
+- Bwd Packet Length Std: 30448 outliers (10.63%)
+- Flow Bytes/s: 31508 outliers (11.00%)
+- Flow Packets/s: 13317 outliers (4.65%)
+- Flow IAT Mean: 46428 outliers (16.21%)
+- Flow IAT Std: 59524 outliers (20.78%)
+- Flow IAT Max: 40417 outliers (14.11%)
+- Flow IAT Min: 26575 outliers (9.28%)
+- Fwd IAT Total: 63354 outliers (22.12%)
+- Fwd IAT Mean: 62966 outliers (21.98%)
+- Fwd IAT Std: 44375 outliers (15.49%)
+- Fwd IAT Max: 63016 outliers (22.00%)
+- Fwd IAT Min: 44763 outliers (15.63%)
+- Bwd IAT Total: 49039 outliers (17.12%)
+- Bwd IAT Mean: 49153 outliers (17.16%)
+- Bwd IAT Std: 30704 outliers (10.72%)
+- Bwd IAT Max: 49038 outliers (17.12%)
+- Bwd IAT Min: 34984 outliers (12.21%)
+- Fwd PSH Flags: 6014 outliers (2.10%)
+- Fwd Header Length: 28465 outliers (9.94%)
+- Bwd Header Length: 26627 outliers (9.29%)
+- Fwd Packets/s: 13487 outliers (4.71%)
+- Bwd Packets/s: 6628 outliers (2.31%)
+- Min Packet Length: 59266 outliers (20.69%)
+- Max Packet Length: 28146 outliers (9.83%)
+- Packet Length Mean: 16973 outliers (5.92%)
+- Packet Length Std: 34860 outliers (12.17%)
+- Packet Length Variance: 51074 outliers (17.83%)
+- FIN Flag Count: 2490 outliers (0.87%)
+- SYN Flag Count: 6014 outliers (2.10%)
+- RST Flag Count: 21 outliers (0.01%)
+- ACK Flag Count: 35555 outliers (12.41%)
+- URG Flag Count: 12797 outliers (4.47%)
+- ECE Flag Count: 21 outliers (0.01%)
+- Down/Up Ratio: 46651 outliers (16.28%)
+- Average Packet Size: 14094 outliers (4.92%)
+- Avg Fwd Segment Size: 7037 outliers (2.46%)
+- Avg Bwd Segment Size: 19826 outliers (6.92%)
+- Fwd Header Length.1: 28465 outliers (9.94%)
+- Subflow Fwd Packets: 25830 outliers (9.02%)
+- Subflow Fwd Bytes: 28427 outliers (9.92%)
+- Subflow Bwd Packets: 22858 outliers (7.98%)
+- Subflow Bwd Bytes: 27198 outliers (9.49%)
+- Init_Win_bytes_backward: 48404 outliers (16.90%)
+- act_data_pkt_fwd: 19540 outliers (6.82%)
+- Active Mean: 21326 outliers (7.44%)
+- Active Std: 13558 outliers (4.73%)
+- Active Max: 21326 outliers (7.44%)
+- Active Min: 21326 outliers (7.44%)
+- Idle Mean: 21355 outliers (7.45%)
+- Idle Std: 13589 outliers (4.74%)
+- Idle Max: 21355 outliers (7.45%)
+- Idle Min: 21355 outliers (7.45%)
+Preprocessing completed: Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv
+Processed data shape: (286467, 81)
+Saved preprocessed file to: /root/autodl-tmp/projects/DL/dataset/preprocessed/preprocessed_Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv
+
+==================================================
+Starting processing: Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv
+Preprocessing file: Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv
+Successfully read file using utf-8 encoding
+Missing values statistics:
+Flow Bytes/s    4
+dtype: int64
+Missing values in column 'Flow Bytes/s' filled with median 1136.605811
+Columns containing infinity values:
+- Flow Bytes/s: 30 infinity values
+  Infinity values replaced with median 1133.638544
+- Flow Packets/s: 34 infinity values
+  Infinity values replaced with median 5.175420891
+
+Label distribution:
+DDOS      128027
+BENIGN     97718
+Name: Label, dtype: int64
+
+Potential outlier report (using IQR method):
+- Destination Port: 88794 outliers (39.33%)
+- Flow Duration: 36099 outliers (15.99%)
+- Total Fwd Packets: 6208 outliers (2.75%)
+- Total Backward Packets: 4123 outliers (1.83%)
+- Total Length of Fwd Packets: 33674 outliers (14.92%)
+- Total Length of Bwd Packets: 1459 outliers (0.65%)
+- Fwd Packet Length Max: 32438 outliers (14.37%)
+- Fwd Packet Length Min: 35640 outliers (15.79%)
+- Fwd Packet Length Mean: 23059 outliers (10.21%)
+- Fwd Packet Length Std: 28956 outliers (12.83%)
+- Bwd Packet Length Min: 33159 outliers (14.69%)
+- Flow Bytes/s: 42059 outliers (18.63%)
+- Flow Packets/s: 32816 outliers (14.54%)
+- Flow IAT Mean: 4474 outliers (1.98%)
+- Flow IAT Std: 30841 outliers (13.66%)
+- Flow IAT Max: 32094 outliers (14.22%)
+- Flow IAT Min: 28648 outliers (12.69%)
+- Fwd IAT Total: 36089 outliers (15.99%)
+- Fwd IAT Mean: 31534 outliers (13.97%)
+- Fwd IAT Std: 31160 outliers (13.80%)
+- Fwd IAT Max: 32139 outliers (14.24%)
+- Fwd IAT Min: 18108 outliers (8.02%)
+- Bwd IAT Total: 28614 outliers (12.68%)
+- Bwd IAT Mean: 26979 outliers (11.95%)
+- Bwd IAT Std: 26899 outliers (11.92%)
+- Bwd IAT Max: 28557 outliers (12.65%)
+- Bwd IAT Min: 18906 outliers (8.37%)
+- Fwd PSH Flags: 7500 outliers (3.32%)
+- Fwd Header Length: 9451 outliers (4.19%)
+- Bwd Header Length: 5157 outliers (2.28%)
+- Fwd Packets/s: 32354 outliers (14.33%)
+- Bwd Packets/s: 33730 outliers (14.94%)
+- Min Packet Length: 32341 outliers (14.33%)
+- Packet Length Variance: 274 outliers (0.12%)
+- FIN Flag Count: 603 outliers (0.27%)
+- SYN Flag Count: 7500 outliers (3.32%)
+- RST Flag Count: 27 outliers (0.01%)
+- URG Flag Count: 31774 outliers (14.08%)
+- ECE Flag Count: 27 outliers (0.01%)
+- Down/Up Ratio: 16852 outliers (7.47%)
+- Avg Fwd Segment Size: 23059 outliers (10.21%)
+- Fwd Header Length.1: 9451 outliers (4.19%)
+- Subflow Fwd Packets: 6208 outliers (2.75%)
+- Subflow Fwd Bytes: 33674 outliers (14.92%)
+- Subflow Bwd Packets: 4123 outliers (1.83%)
+- Subflow Bwd Bytes: 1459 outliers (0.65%)
+- Init_Win_bytes_forward: 1904 outliers (0.84%)
+- Init_Win_bytes_backward: 6847 outliers (3.03%)
+- act_data_pkt_fwd: 4499 outliers (1.99%)
+- min_seg_size_forward: 26655 outliers (11.81%)
+- Active Mean: 40601 outliers (17.99%)
+- Active Std: 5686 outliers (2.52%)
+- Active Max: 40602 outliers (17.99%)
+- Active Min: 40511 outliers (17.95%)
+- Idle Mean: 31906 outliers (14.13%)
+- Idle Std: 22539 outliers (9.98%)
+- Idle Max: 32005 outliers (14.18%)
+- Idle Min: 15035 outliers (6.66%)
+Preprocessing completed: Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv
+Processed data shape: (225745, 81)
+Saved preprocessed file to: /root/autodl-tmp/projects/DL/dataset/preprocessed/preprocessed_Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv
+
+==================================================
+All 8 files processed!
+
+Merging preprocessed files...
+Merged data shape: (2830743, 81)
+
+Merged label distribution:
+BENIGN                        2273097
+DOS HULK                       231073
+PORTSCAN                       158930
+DDOS                           128027
+DOS GOLDENEYE                   10293
+FTP-PATATOR                      7938
+SSH-PATATOR                      5897
+DOS SLOWLORIS                    5796
+DOS SLOWHTTPTEST                 5499
+BOT                              1966
+WEB ATTACK � BRUTE FORCE         1507
+WEB ATTACK � XSS                  652
+INFILTRATION                       36
+WEB ATTACK � SQL INJECTION         21
+HEARTBLEED                         11
+Name: Label, dtype: int64
+Saved merged data to: /root/autodl-tmp/projects/DL/dataset/preprocessed/CICIDS2017_merged_preprocessed.csv

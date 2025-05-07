@@ -1,0 +1,22 @@
+{
+    "model_type": "MLP",
+    "hidden_layers": [
+        256,
+        128,
+        64,
+        32
+    ],
+    "dropout_rate": 0.3,
+    "use_batch_norm": true,
+    "input_shape": 70,
+    "optimizer": "Adam",
+    "learning_rate": 0.001,
+    "batch_size": 128,
+    "epochs_trained": 31,
+    "early_stopping_patience": 10,
+    "class_weight": null,
+    "test_accuracy": 0.9427194709523047,
+    "test_f1_score": 0.8343346002424837,
+    "best_threshold": 0.38886553049087524,
+    "timestamp": "20250506_140312"
+}
